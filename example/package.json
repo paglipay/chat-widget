@@ -2,7 +2,6 @@
   "name": "@paglipay/chat-widget-example",
   "homepage": ".",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
@@ -21,7 +20,7 @@
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
     "typescript": "file:../node_modules/typescript",
-    "@paglipay/browser": "file:../node_modules/@paglipay/browser",
+    "@papercups-io/browser": "file:../node_modules/@papercups-io/browser",
     "@paglipay/chat-widget": "file:.."
   },
   "devDependencies": {

@@ -13,14 +13,14 @@ import {
   getUserInfo,
   setupCustomEventHandlers,
   setupPostMessageHandlers,
-} from '@paglipay/browser';
+} from '@papercups-io/browser';
 
 import {WidgetConfig, noop} from '../utils';
 import getThemeConfig from '../theme';
 import store from '../storage';
 import Logger from '../logger';
 
-const DEFAULT_IFRAME_URL = 'https://chat-widget.papercups.io';
+const DEFAULT_IFRAME_URL = 'https://chat-widget.paglipay.info';
 
 export type SharedProps = {
   token: string;

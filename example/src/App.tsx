@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {ChatWidget, ChatWindow} from '@paglipay/chat-widget';
-import {Papercups} from '@paglipay/browser';
+import {Papercups} from '@papercups-io/browser';
 
 // NB: during development, replace this with valid account/inbox IDs from your dev db
 const TEST_ACCOUNT_ID = '2ebbad4c-b162-4ed2-aff5-eaf9ebf469a5';
