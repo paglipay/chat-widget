@@ -13,7 +13,7 @@ import {
   getUserInfo,
   setupCustomEventHandlers,
   setupPostMessageHandlers,
-} from '@papercups-io/browser';
+} from '@paglipay/browser';
 
 import {WidgetConfig, noop} from '../utils';
 import getThemeConfig from '../theme';

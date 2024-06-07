@@ -1,9 +1,9 @@
-# @papercups-io/chat-widget
+# @paglipay/chat-widget
 
 > Papercups chat widget
 
-[![NPM](https://img.shields.io/npm/v/@papercups-io/chat-widget.svg)](https://www.npmjs.com/package/@papercups-io/chat-widget)
-[![Downloads](https://img.shields.io/npm/dm/@papercups-io/chat-widget.svg)](https://www.npmjs.com/package/@papercups-io/chat-widget)
+[![NPM](https://img.shields.io/npm/v/@paglipay/chat-widget.svg)](https://www.npmjs.com/package/@paglipay/chat-widget)
+[![Downloads](https://img.shields.io/npm/dm/@paglipay/chat-widget.svg)](https://www.npmjs.com/package/@paglipay/chat-widget)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Demo
@@ -15,7 +15,7 @@ Available at https://app.papercups.io/demo
 ## Install
 
 ```bash
-npm install --save @papercups-io/chat-widget
+npm install --save @paglipay/chat-widget
 ```
 
 ## Usage
@@ -73,10 +73,10 @@ Place the code below in any pages on which you would like to render the widget. 
 ```tsx
 import React from 'react';
 
-import {ChatWidget} from '@papercups-io/chat-widget';
+import {ChatWidget} from '@paglipay/chat-widget';
 
 // You can also import the following in v1.1.0 and above:
-// import {ChatWidget, ChatWindow, Papercups} from '@papercups-io/chat-widget';
+// import {ChatWidget, ChatWindow, Papercups} from '@paglipay/chat-widget';
 //
 // The `ChatWindow` component allows you to embed the chat however you want,
 // and the `Papercups` object provides access to functions that can programmatically
@@ -186,7 +186,7 @@ This will start a development server on [http://localhost:3000](http://localhost
 
 ### Important notes
 
-By default, the example widget points at development servers for the [Papercups API](https://github.com/papercups-io/papercups) (which runs at http://localhost:4000) and the [Papercups chat window](https://github.com/papercups-io/chat-window) (which runs at http://localhost:8080). These values are set with the [`baseUrl`](https://github.com/papercups-io/chat-widget/blob/master/example/src/App.tsx#L66) and [`iframeUrlOverride`](https://github.com/papercups-io/chat-widget/blob/master/example/src/App.tsx#L67) props respectively.
+By default, the example widget points at development servers for the [Papercups API](https://github.com/papercups-io/papercups) (which runs at http://papercups.paglipay.info) and the [Papercups chat window](https://github.com/papercups-io/chat-window) (which runs at http://localhost:8080). These values are set with the [`baseUrl`](https://github.com/papercups-io/chat-widget/blob/master/example/src/App.tsx#L66) and [`iframeUrlOverride`](https://github.com/papercups-io/chat-widget/blob/master/example/src/App.tsx#L67) props respectively.
 
 If you want to develop against your account in production, you can update these values to the following:
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {ChatWidget, ChatWindow} from '@papercups-io/chat-widget';
-import {Papercups} from '@papercups-io/browser';
+import {ChatWidget, ChatWindow} from '@paglipay/chat-widget';
+import {Papercups} from '@paglipay/browser';
 
 // NB: during development, replace this with valid account/inbox IDs from your dev db
 const TEST_ACCOUNT_ID = '2ebbad4c-b162-4ed2-aff5-eaf9ebf469a5';
@@ -10,7 +10,7 @@ const TEST_INBOX_ID = 'eab9c66e-ea8a-46f7-9565-3927ec55e20d';
 const cups = Papercups.init({
   accountId: TEST_ACCOUNT_ID,
   inboxId: TEST_INBOX_ID,
-  baseUrl: 'http://localhost:4000',
+  baseUrl: 'http://papercups.paglipay.info',
 });
 
 type Props = {disco?: boolean; displayChatWindow?: boolean};
@@ -100,7 +100,7 @@ const App = ({disco, displayChatWindow}: Props) => {
             }}
             // NB: we override these values during development -- note that the
             // API runs on port 4000 by default, and the iframe on 8080
-            baseUrl='http://localhost:4000'
+            baseUrl='http://papercups.paglipay.info'
             iframeUrlOverride='http://localhost:8080'
             requireEmailUpfront
             showAgentAvailability
@@ -135,7 +135,7 @@ const App = ({disco, displayChatWindow}: Props) => {
           // customer={customer}
           // NB: we override these values during development -- note that the
           // API runs on port 4000 by default, and the iframe on 8080
-          baseUrl='http://localhost:4000'
+          baseUrl='http://papercups.paglipay.info'
           iframeUrlOverride='http://localhost:8080'
           requireEmailUpfront={!customer && !customer?.email}
           showAgentAvailability
